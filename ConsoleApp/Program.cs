@@ -29,6 +29,11 @@ namespace ConsoleApp
             else if (kaugusConverted >= 91)
             {
                 Console.WriteLine("Suurem või vördne 91");
+            }
+            else
+            {
+                Console.WriteLine("ERROR");
+            }
         }
     }
 }
